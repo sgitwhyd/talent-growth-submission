@@ -17,6 +17,7 @@ const assesmentCheck = (value) => {
 };
 
 const buttonCheck = document.querySelector('#check-grade__button');
+const buttonCheckName = document.querySelector('#check-name__button');
 const container = document.querySelector('#root');
 
 buttonCheck.addEventListener('click', () => {
@@ -32,4 +33,17 @@ buttonCheck.addEventListener('click', () => {
 			: `Nilai ${name} mendapatkan nilai ${assesmentCheck(grade)}`
 	}
   `;
+});
+
+buttonCheckName.addEventListener('click', () => {
+	const name = prompt('Enter your name');
+	const firstLetter = name.toLowerCase().charAt(0);
+
+	if (firstLetter >= 'a' && firstLetter <= 'd') {
+		container.innerHTML = `${name}  in a first group`;
+	} else if (firstLetter >= 'e' && firstLetter <= 'i') {
+		container.innerHTML = `${name}  in a second group`;
+	} else {
+		container.innerHTML = `${name}  in a last group`;
+	}
 });
