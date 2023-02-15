@@ -73,6 +73,13 @@ const Navbar = () => {
 								Task 3
 							</Link>
 						</li>
+						<li>
+							<Link
+								className='md:p-4 py-2 block hover:text-purple-400'
+								to='task-4'>
+								Task 4
+							</Link>
+						</li>
 					</ul>
 				</div>
 			</nav>
