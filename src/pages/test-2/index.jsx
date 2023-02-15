@@ -148,7 +148,7 @@ const index = () => {
 								<p>
 									Output =
 									{checkGrade(data.grade) === 'invalid'
-										? ' Invalid'
+										? ' Nilai Invalid'
 										: ` Nilai ${data.name} mendapatkan nilai
 									${checkGrade(data.grade)}`}
 								</p>
