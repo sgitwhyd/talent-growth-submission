@@ -14,7 +14,15 @@ const index = () => {
 					Informatics Study Program at the Muhammadiyah University of Surakarta.
 					I like programming since 2nd grade of high school until now I have
 					been studying web programming for more than 3 years and now I am
-					focusing on developing web using JavaScript language.
+					focusing on developing web using JavaScript language. <br />
+					for more click this link to view my personal website{' '}
+					<a
+						href='https://sigitwahyu.my.id'
+						className='text-blue-600'
+						target='_blank'
+						rel='noreferrer'>
+						here
+					</a>
 				</p>
 			</div>
 			<div className=''>
